@@ -189,7 +189,7 @@ public class PhotoActivity extends Activity {
 		try {
 			File file =  new File(
 					Environment.getExternalStoragePublicDirectory(
-						Environment.DIRECTORY_DOWNLOADS
+						"Actionbound"
 					), "share_image_" + System.currentTimeMillis() + ".png");
 
 			file.getParentFile().mkdirs();
